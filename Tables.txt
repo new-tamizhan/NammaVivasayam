@@ -1,0 +1,171 @@
+
+Select DB:  DB Name
+
+Create Table:
+==========
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+CREATE TABLE IF NOT EXISTS `tbl_product` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
+  `price` double(10,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+
+
+Insert Table:(Fruits)
+=========
+
+INSERT INTO `tbl_fruits` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Cherry', '1.jpg', 150.00),
+(2, 'Banana', '2.png', 40.00),
+(3, 'Pomegranate', '3.png', 120.00),
+(4, 'Pineapple', '4.jpg', 70.00),
+(5, 'Lemon', '5.jpg', 130.00),
+(6, 'Orange', '6.jpg', 140.00),
+(7, 'Guava', '7.jpg', 60.00),
+(8, 'Watermelon', '8.jpg', 65.00),
+(9, 'Apple', '9.jpg', 110.00),
+(10, 'Grapes', '10.jpg', 80.00),
+(11, 'Papaya', '11.jpg', 55.00),
+(12, 'Custard Apple', '12.jpg', 90.00),
+(13, 'Mango Fruit', '13.jpg', 50.00),
+(14, 'Jujube Fruit', '14.jpg', 60.00),
+(15, 'Gooseberry', '15.jpg', 100.00),
+(16, 'Jackfruit', '16.jpg', 150.00);
+
+-
+Insert Table:(Vegetables)
+=========
+
+INSERT INTO `tbl_vegetables` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Brinjal', '1v.jpg', 30.00),
+(2, 'Avarakkai', '2v.jpg', 85.00),
+(3, 'Beans', '3v.jpg', 72.00),
+(4, 'Cauliflower', '4v.jpg', 90.00),
+(5, 'Capsicum', '5v.jpg', 75.00),
+(6, 'Green Chilli', '6v.jpg', 52.00),
+(7, 'Cabbage', '7v.jpg', 85.00),
+(8, 'Drumstick', '8v.jpg', 80.00),
+(9, 'Maize Corn', '9v.jpg', 60.00),
+(10, 'Clusterbeans', '10v.png', 72.00),
+(11, 'Bitter Gourd', '11v.jpg', 55.00),
+(12, 'Broad Beans', '12v.png', 60.00),
+(13, 'Ridge Gourd', '13v.jpg', 85.00),
+(14, 'Snake Gourd', '14v.png', 30.00),
+(15, 'Pumpkin', '15v.jpg', 45.00),
+(16, 'Bottle Gourd', '16v.jpg', 65.00),
+(17, 'Banana - Raw Green', '17v.jpg', 66.00),
+(18, 'Banana Flower', '18v.jpg', 44.00),
+(19, 'cucumber', '19v.jpg', 58.00),
+(20, 'Ladies Finger', '20v.jpg', 55.00);
+
+-
+
+Insert Table:(Grains)
+=========
+
+INSERT INTO `tbl_grains` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Bean Seeds', '1g.jpg', 45.00),
+(2, 'Brown Chickpeas', '2g.jpg', 75.00),
+(3, 'Pearl Milliet', '3g.jpg', 98.00),
+(4, 'Horse Gram', '4g.jpg', 118.00),
+(5, 'Peanuts with Skin', '5g.jpg', 100.00),
+(6, 'Coriander Seeds', '6g.jpg', 225.00),
+(7, 'Wheat', '7g.jpg', 48.00),
+(8, 'Green Peas', '8g.jpg', 160.00),
+(9, 'Finger Millet', '9g.jpg', 150.00),
+(10, 'Sorghum', '10g.jpg', 140.00),
+(11, 'Pigeon Pea', '11g.jpg', 80.00),
+(12, 'Urad Dal White', '12g.jpg', 140.00);
+
+-
+Insert Table:(Oilseeds)
+=========
+
+INSERT INTO `tbl_oilseeds` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Castor Seeds', '1os.jpg', 365.00),
+(2, 'Coconut', '2os.jpg', 40.00),
+(3, 'Sesame Seeds', '3os.jpg', 300.00),
+(4, 'Peanuts', '4os.jpg', 190.00),
+(5, 'Sunflower Seeds', '5os.png', 210.00),
+(6, 'Neem Seeds', '6os.jpg', 190.00),
+(7, 'Mustard', '7os.jpg', 190.00),
+(8, 'Flax Seeds', '8os.jpg', 260.00);
+
+-
+Insert Table:(Roots)
+=========
+
+INSERT INTO `tbl_roots` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Beetroot', '1r.jpg', 45.00),
+(2, 'Carrot', '2r.jpg', 95.00),
+(3, 'Tapioca', '3r.gif', 54.00),
+(4, 'Yam', '4r.jpg', 180.00),
+(5, 'Radish', '5r.jpg', 39.00),
+(6, 'Sweet Potatoes', '6r.jpg', 55.00),
+(7, 'Ginger', '7r.jpg', 250.00),
+(8, 'Palmyra Sprout', '8r.jpg', 55.00),
+(9, 'Onion', '9r.jpg', 56.00),
+(10, 'Garlic', '10r.jpg', 180.00),
+(11, 'Potatoes', '11r.jpg', 25.00),
+(12, 'Turmeric', '12r.jpg', 98.00);
+
+-
+
+Insert Table:(Flowers)
+=========
+
+INSERT INTO `tbl_flowers` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Arali Flower', '1f.jpg', 210.00),
+(2, 'Sampangi Flower', '2f.jpg', 265.00),
+(3, 'Crossandra', '3f.jpg', 300.00),
+(4, 'Samanthi Flower', '4f.jpg', 100.00),
+(5, 'Jasmine', '5f.jpeg', 220.00),
+(6, 'Rose', '6f.jpg', 400.00),
+(7, 'Gomphrena Globosa', '7f.jpg', 120.00),
+(8, 'Senna Auriculata', '8f.jpg', 125.00);
+
+-
+Insert Table:(keerai)
+=========
+
+INSERT INTO `tbl_keerai` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Agathi Keerai', '1k.jpg', 35.00),
+(2, 'Curry Leaves', '2k.jpg', 79.00),
+(3, 'Coriander Leaves', '3k.jpg', 75.00),
+(4, 'Drumstick Leaves', '4k.jpg', 35.00),
+(5, 'Pirandai', '5k.jpg', 140.00),
+(6, 'Mint Leaves', '6k.jpg', 110.00),
+(7, 'Spinach', '7k.jpg', 65.00),
+(8, 'Vallarai Herb', '8k.jpg', 250.00);
+
+-
+
+Insert Table:(others)
+=========
+
+INSERT INTO `tbl_others` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Coco Broom 1pc', '1ot.jpg', 35.00),
+(2, 'Pakku Mattai Plate', '2ot.jpg', 85.00),
+(3, 'Raw Cotton', '3ot.jpg', 150.00),
+(4, 'Baku', '4ot.jpg', 325.00),
+(5, 'Palm Jaggery', '5ot.png', 210.00),
+(6, 'Jaggery', '6ot.jpg', 60.00),
+(7, 'Mushroom', '7ot.jpg', 100.00),
+(8, 'Tamarind', '8ot.jpg', 110.00);
+
+-
+
+
+
+
+DELETE MYSQL TABLES AND DATABASES:
+
+DROP TABLE tablename;
+
+
+DROP DATABASE dbname;
+

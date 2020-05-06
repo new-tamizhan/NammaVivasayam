@@ -1,0 +1,55 @@
+
+*
+{
+ margin: 0;
+
+}
+
+
+
+.gtrans{
+	width=11%;
+	height:25px;
+}
+
+.header {
+  height:190px;
+  width:100%;
+
+ }
+ .footer {
+    height:50px; 
+    position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgb(2, 117, 216);
+     color: white;
+  }
+
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget {
+   color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+   color: blue !important;
+}
+
+.menu{
+	height:35px; 
+	width:100%;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+		
+}
+
+.sshow{
+	padding: 70px;
+  //padding-left:25px;
+
+ }
